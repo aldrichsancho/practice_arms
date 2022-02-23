@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './component/header';
+import FoodItem from './component/FoodItem';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
+    <FoodItem/>
   </React.StrictMode>,
   document.getElementById('root')
 );
