@@ -1,13 +1,12 @@
-
 import '../App.css';
 
 function Header() {
   return (
     <div className="flex w-screen bg-[#DD0103] rounded-b-3xl justify-between items-center">
       <div className='flex w-1/3 gap-9 pl-24 py-6 text-[#F9EFEF] text-base'>
-        <span>Home</span>
-        <span className='font-semibold '>Product</span>
-        <span>Voucher</span>
+        <a href="#">Home</a>
+        <a href="#" className='font-semibold '>Product</a>
+        <a href="#">Voucher</a>
       </div>
 
       <img src="image/logo.png" alt="logo" width={"135px"}/>
@@ -29,7 +28,7 @@ function Header() {
             <img src="image/profile.jpg" className='rounded-full object-cover' style={{ height: "44px", width: "44px" }} />
           </div>
         </div>
-        <span className='font-medium text-sm '>Aldrich Sancho</span>
+        <span className='font-medium text-sm '>User Name</span>
       </div>
     </div>
 
