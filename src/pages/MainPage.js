@@ -1,13 +1,15 @@
 import '../App.css';
+import Sidebar from '../component/Sidebar';
 import FoodItem from '../component/FoodItem';
 
 function MainPage(){
     return(
-        <div className="flex flex-row">
-          <div className="sidebar w-3/12 bg-[#FF0000]">
-
-          </div>
-          <div className="w-8/12">
+        <div className="flex flex-row pt-20">
+          <Sidebar/>
+          <div className="grid grid-cols-4 gap-1">
+            <FoodItem/>
+            <FoodItem/>
+            <FoodItem/>
             <FoodItem/>
           </div>
         </div>

@@ -5,11 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './component/header';
 import MainPage from './pages/MainPage';
+import Footer from './component/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
+    <Header/>
     <MainPage/>
+    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );
