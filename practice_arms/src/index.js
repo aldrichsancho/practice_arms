@@ -5,11 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './component/header';
 import FoodItem from './component/FoodItem';
+import Footer from './component/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
     <FoodItem/>
+    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );
